@@ -58,7 +58,7 @@ metadata:
   name: mss-springboot-svc
   namespace: ibm-ucd 
 spec:
-  type: ClusterIP    #LoadBalancer,NodePort
+  type: LoadBalancer #ClusterIP    #LoadBalancer,NodePort
   selector:
     app: mss-springboot-svc
   ports:
