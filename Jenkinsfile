@@ -45,7 +45,7 @@ pipeline {
     stage('Cloning Git') {
             steps {
                 //checkout([$class: 'GitSCM', branches: [[name: '*/master_snow_prod']], extensions: [], userRemoteConfigs: [[credentialsId: 'democalculus-github-login-creds', url: 'https://github.com/democalculus/mongodb-springboot-app.git']]])
-          git credentialsId: 'GIT_CREDENTIALS', url:  'https://github.com/Danle360/mongodb-springboot-app.git',branch: 'mss_snow_master'
+              git credentialsId: 'GIT_CREDENTIALS', url:  'https://github.com/Danle360/mongodb-springboot-app.git',branch: 'master_snow_prod'
 
             }
         }
