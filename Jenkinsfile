@@ -1,5 +1,5 @@
 //${library.jenkins-slack-library.version}
-@Library('Slack-us-east-jenkins-master_snow_prod') _
+//@Library('Slack-us-east-jenkins-master_snow_prod') _
 
 pipeline {
 
